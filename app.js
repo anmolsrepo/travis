@@ -11,6 +11,7 @@ var express = require('express')
 
 var app = express();
 
+console.log("travis")
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
